@@ -2,8 +2,8 @@ library(ggplot2)
 library(sf)
 library(tidyverse)
 
-#options(device = "X11")
-#X11.options(type = "cairo")
+options(device = "X11")
+X11.options(type = "cairo")
 
 canada_location <- c("gpr_000b11a_e.shp")
 
